@@ -1,0 +1,53 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  color: aliceblue;
+
+  .App-header {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+
+    nav {
+      ul {
+        padding: 0;
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+
+        li {
+          a {
+            text-decoration: none;
+            color: aliceblue;
+            padding: 20px 30px;
+            transition: background-color .2s ease-in-out;
+
+            &:hover {
+              background-color: #282c34;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .container {
+    width: 1024px;
+    margin: 0 auto;
+
+    @media(max-width: 1200px) {
+      width: 768px;
+    }
+
+    @media(max-width: 800px) {
+      width: 512px;
+    }
+
+    @media(max-width: 600px) {
+      width: 320px;
+    }
+  }
+}
