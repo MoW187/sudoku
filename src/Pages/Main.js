@@ -1,4 +1,5 @@
 import React from "react";
+import SubscribeForm from "../Components/SubscribeForm";
 import './Main.scss';
 
 const Main = (props) => {
@@ -32,14 +33,7 @@ const Main = (props) => {
                 </section>
                 <hr />
                 <section>
-                    <h2>Lorem ipsum</h2>
-
-                    Pellentesque nunc magna, sodales vel tincidunt non, vestibulum id magna. Nulla bibendum id purus a
-                    eleifend. Aliquam erat volutpat. Donec nec mi vel lacus fermentum eleifend. Maecenas imperdiet
-                    pharetra fringilla. Cras pharetra posuere odio in tristique. Suspendisse vel sem leo. Nullam
-                    scelerisque, mi quis aliquam tincidunt, sapien nibh dictum nisl, ac varius felis lectus suscipit
-                    dolor. Nulla consectetur orci at nibh accumsan, eu lobortis nisi malesuada. Nunc aliquet tristique
-                    leo quis consectetur. Donec vitae tellus felis.
+                    <SubscribeForm />
                 </section>
             </div>
         </div>
