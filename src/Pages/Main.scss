@@ -1,0 +1,12 @@
+.main {
+  .content {
+    hr {
+      width: 80%;
+      margin: 60px auto 50px;
+
+      @media(max-width: 600px) {
+        margin: 30px auto 20px;
+      }
+    }
+  }
+}
